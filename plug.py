@@ -10,6 +10,8 @@ def get_vendor_and_product_id(device):
         return "0x256f", "0xc652"
     elif device == "spacemouse_wired":
         return "0x256f", "0xc62e"
+    elif device == "spacemouse_enterprise":
+        return "0x256f", "0xc633"
     else:
         return None, None
 
